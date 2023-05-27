@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  debian-node-build:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.txt
+    image: maskawanian/debian-node-build:bookworm
